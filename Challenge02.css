@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin:0;
+  padding:0 ;
+}
+
+body{
+font-family: 'Noto Sans KR', sans-serif;font-size: 20px;
+}
+
+div#wrap{ 
+  width:100%; 
+  flex-wrap: wrap;
+
+}
+div#header_wrap{
+  width:1200px; margin: 0 auto;
+  background-color: #dde0d6;
+  height:1800px;padding: 15px;
+}
+
+div.header{ 
+  width:1162px;margin: 0 auto;
+  background-color: black;box-sizing: border-box;
+  color: #fff; height: 150px;
+  padding: 74px 10px 15px 15px;
+}
+div.header::after {
+  content: ""; display: block; clear: both;
+}
+
+div.header  div.text1 {
+  width: 300px;
+  float: left;
+ 
+
+}
+div.header div.text2 {
+  width: 300px;
+  float: left;
+  
+
+}
+div.header div.text3 {
+  width: 300px;
+  float: right;
+  
+
+}
+div.box{
+  box-sizing: border-box; padding: 15px;
+}
+div.box:after {
+  content: ""; display: block; clear: both;
+}
+div.box div.box1{
+  width:850px;height:900px;
+  background-color: #f14011;float: left;
+}
+div.box div.box1 p{text-align: left;margin-top: 450px; font-size: 350px; font-weight: 900;}
+
+div.box div.box2{
+  width:300px;height:900px;
+  background-color: #f14011; float: right;
+}
+
+div.box div.box3{
+  width:1170px;height:650px;float: left;margin-top: 20px;
+  background-color: #f14011;
+}
+
+div.box div.box3 p {
+  margin-top: -50px;color: #fff;font-size: 50px; margin-left: 30px; font-weight: 700;
+}
+div.box div.box3 p span {text-align: center; font-size: 280px; font-weight: 900;color: black;
+}

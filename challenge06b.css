@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+*{margin: 0;
+padding: 0;}
+
+div#wrap{
+  width:100%;
+  background-color: #fff;
+}
+div.innerwrap{
+width:1700px; margin: 0 auto;
+background-color: #eeea51;
+}
+div.bigbox{ 
+  display: grid; gap: 0px;
+  grid-template-columns: repeat(4);
+  grid-template-rows:repeat(4) }
+
+  

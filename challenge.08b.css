@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+*{
+  margin:0;
+  padding:0 ;
+}
+
+div#wrap{
+  width:100%; 
+flex-wrap: nowrap;
+  display: flex; 
+   background-color: #ff7400;
+  gap:0;
+}
+div#innerwrap{
+  width:1800px;
+  outline: 2px solid red;
+  margin: 15px; 
+}
+
+div.leftbox{
+  width:1200px;
+  height:200px;
+  outline: 2px solid red;
+}
+div.leftbox:hover{
+  color: #fff; font-weight: 900;
+}
+
+div.leftbox div.left{
+  width:80px;display: flex;
+  height: 200px;float: left; 
+  outline: 2px solid red;
+  text-align: center; line-height: 90px;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 24px; color: red; font-weight: 700;;
+}
+div.leftbox div.left2{
+  width:900px;display: flex;
+  height: 200px;font-size: 150px;
+  outline: 2px solid red;color: red;
+  line-height: 200px;font-weight: 700;
+}
+
+div.leftbox div.innerbox{
+  width:220px;
+  height:200px;float: right;}
+  
+
+div.leftbox div.innerbox .left3{
+  width:220px;
+  height: 100px; color: red;
+  text-align: center;line-height: 100px;
+  outline: 2px solid red;font-size: 20px;font-weight: 700;
+}
+div.leftbox div.innerbox button{
+  border: 0;
+  background-color: red;
+  color: #fff; font-size: 20px;
+  border-radius: 50px;
+  width:200px;
+  height:60px; 
+  margin: 20px 10px;
+}
+div.midbox{
+  position: fixed;
+  top:0;left:1220px;
+}
+div.midbox span:first-child{
+  height: 1200px;
+  background-color: #db7093;
+  writing-mode: vertical-rl;
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;display: flex; 
+  font-size: 30px; 
+  height:492px; float: left;
+  box-sizing: border-box;
+
+}
+div.midbox span:nth-child(2){
+  background-color: #8a2be2;
+      writing-mode: vertical-rl;
+      writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      justify-content: start;
+      align-items: center;
+      padding: 20px;
+      font-size: 30px;
+      transform: rotate(180deg);
+      height:492px; position: fixed;
+      top:492px;left:1220px;
+      box-sizing: border-box;
+  }
+
+  div.rightbox{
+  width:900px;box-sizing: border-box;
+  height:984px;
+  position: fixed;
+  top:0;left:1300px;
+
+  background-color: tomato;
+  float: right;
+}
+
+div.lorembox {
+      width:260px;
+      float: left;
+      font-size: 24px; 
+      margin: 8px; float: left; padding: 8px 30px;
+      text-align: left;
+    }
+
+    div.lorembox:hover {
+    text-decoration: underline 2px solid #fff;}

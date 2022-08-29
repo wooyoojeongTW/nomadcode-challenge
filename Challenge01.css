@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+*{
+  padding:0;
+  margin: 0;
+}
+
+div#wrap{
+  padding:50px;
+  width:800px; box-sizing: border-box;  
+}
+
+div#wrap div{
+  width:200px;
+  height:200px;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 20px;
+  float: left;
+
+}
+
+div#wrap div.box1,div.box2, div.box3{
+  background-color: lightblue;
+}
+div#wrap div.box4,div.box5, div.box6{
+  background-color: gray; margin-top: 30px;
+margin-bottom: 30px;}
+div#wrap div.box7,div.box8, div.box9{
+  background-color: green;
+}
+div#wrap div.boxalign{
+  margin-right: 50px;
+  margin-left: 50px;
+}
